@@ -8,7 +8,7 @@ function volume_sphere() {
     let volume = (4 / 3) * Math.PI * r * r * r;
     v.value = volume.toFixed(4); // Set the value of the input field
   } else {
-    v.value = "Nan";
+    v.value = "NaN";
   }
 }
 
